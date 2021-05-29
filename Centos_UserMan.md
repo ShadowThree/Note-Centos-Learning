@@ -103,7 +103,15 @@ gsettings set org.gnome.GWeather temperature-unit "'centigrade'"
 	# yum install local rpm parkeg
 	sudo yum localinstall libstdc++-4.8.5-44.el7.i686.rpm
 
-
+### set mail
+```
+# add below setting in /etc/mail.rc
+set from=mailAddr@qq.com
+set smtp=smtp.qq.com
+set smtp-auth-user=[same with you mail addr]
+set smtp-auth-password=[get from the mail setting]
+set smtp-auth=login
+```
 
 
 
