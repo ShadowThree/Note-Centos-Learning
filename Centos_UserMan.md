@@ -112,10 +112,13 @@ set smtp-auth-user=[same with you mail addr]
 set smtp-auth-password=[get from the mail setting]
 set smtp-auth=login
 ```
+<<<<<<< HEAD
 then send mail by following command:
 ```
 mail -s 'subject' mailAddr@qq.com < fileName
 ```
+=======
+>>>>>>> 3b38a7ed3c84dbc43f824aa1f4fb3efab5cffd66
 
 
 
